@@ -1,0 +1,13 @@
+-- auto-open.scpt
+-- Opens all SVG files in the PencilToVector folder with Adobe Illustrator
+
+set targetFolder to POSIX file "/Users/yourname/Documents/PencilToVector/" as alias
+
+tell application "Finder"
+    set svgFiles to every file of folder targetFolder whose name ends with ".svg"
+    repeat with f in svgFiles
+        tell application "Adobe Illustrator"
+            open (f as alias)
+        end tell
+    end repeat
+end tell
