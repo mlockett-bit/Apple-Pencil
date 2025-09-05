@@ -1,0 +1,8 @@
+-- auto-commit.scpt
+-- Adds, commits, and pushes new SVGs in PencilToVector repo
+
+set repoPath to "/Users/yourname/Documents/GitHub/pencil-to-vector"
+
+tell application "Terminal"
+    do script "cd " & repoPath & " && git add . && git commit -m 'Add new SVG exports' && git push"
+end tell
