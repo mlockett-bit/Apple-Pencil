@@ -1,0 +1,2 @@
+git add macos-scripts/auto-commit.scpt
+git commit -m "Add auto-commit AppleScript for Git pushes"
