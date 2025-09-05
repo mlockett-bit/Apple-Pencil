@@ -26,7 +26,15 @@ Located in `macos-scripts/`:
 ### ▶️ Running a Script
 1. Open **Script Editor** on macOS  
 2. Load the `.scpt` file from `macos-scripts/`  
-3. Click **Run**  
+3. Click **Run**
+
+
+---
+
+👉 This way, anyone browsing your repo sees **iPad app + Mac automation as one full pipeline**.  
+
+Do you also want me to create a **sample AppleScript (`auto-open.scpt`) file** you can drop into your repo’s `macos-scripts/` folder, ready to run?
+
 
 Or, from Terminal:
 ```bash
